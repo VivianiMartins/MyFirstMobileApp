@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Prova Viviani</string>
+    <string name="welcome">Bem vindo(a)!</string>
+    <string name="login">Login (nome ou e-mail):</string>
+    <string name="password">Digite a senha:</string>
+    <string name="enter">Entrar</string>
+    <string name="forgot">Esqueci senha</string>
+    <string name="access">Cadastrar</string>
+    <string name="description">Lorem ipsum dolor sit amet. Et nobis nostrum et omnis similique eum deserunt iste qui dolorum ipsa? Est dignissimos voluptates id distinctio reprehenderit ab pariatur quibusdam aut obcaecati perspiciatis et rerum autem et fugit totam ut autem quia.</string>
+</resources>
