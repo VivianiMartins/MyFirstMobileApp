@@ -6,5 +6,9 @@
     <string name="enter">Entrar</string>
     <string name="forgot">Esqueci senha</string>
     <string name="access">Cadastrar</string>
-    <string name="description">Lorem ipsum dolor sit amet. Et nobis nostrum et omnis similique eum deserunt iste qui dolorum ipsa? Est dignissimos voluptates id distinctio reprehenderit ab pariatur quibusdam aut obcaecati perspiciatis et rerum autem et fugit totam ut autem quia.</string>
+    <string name="description">Lorem ipsum dolor sit amet. Et nobis nostrum et omnis similique eum deserunt iste qui dolorum ipsa?</string>
+    <string name="password_confirm">Confirme a senha:</string>
+    <string name="img_alt">Lorem ipsum dolor sit amet.</string>
+    <string name="next">Próximo</string>
+    <string name="save">Salvar</string>
 </resources>

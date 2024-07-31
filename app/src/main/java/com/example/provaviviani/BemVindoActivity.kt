@@ -1,9 +1,13 @@
 package com.example.provaviviani
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import android.os.Bundle
+import android.view.MenuItem
 import android.widget.TextView
 import androidx.activity.ComponentActivity
+import androidx.core.app.NavUtils
+
 
 class BemVindoActivity : ComponentActivity() {
     @SuppressLint("MissingInflatedId", "SetTextI18n")
@@ -32,4 +36,5 @@ class BemVindoActivity : ComponentActivity() {
         }
         return super.onOptionsItemSelected(item)
     }
+
 }

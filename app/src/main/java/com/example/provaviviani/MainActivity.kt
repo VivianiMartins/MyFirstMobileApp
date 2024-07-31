@@ -1,14 +1,12 @@
 package com.example.provaviviani
 
 import android.os.Bundle
+import android.widget.Toast
+import android.widget.Button
+import android.content.Intent
 import android.widget.TextView
 import android.content.Context
-import android.content.Intent
-import android.widget.Button
-import android.widget.Toast
 import androidx.activity.ComponentActivity
-
-
 
 class MainActivity : ComponentActivity() {
     private val context: Context get() = this
@@ -19,7 +17,8 @@ class MainActivity : ComponentActivity() {
         //Definindo a Visão
         setContentView(R.layout.activity_main)
         val btLogin = findViewById<Button>(R.id.buttonLogin)
-        val bt = findViewById<Button>(R.id.buttonLogin)
+        val btPassword = findViewById<Button>(R.id.buttonPassword)
+        val btAccess = findViewById<Button>(R.id.buttonAccess)
 
         //Eventos:
         btLogin.setOnClickListener {
@@ -37,6 +36,20 @@ class MainActivity : ComponentActivity() {
             } else {
                 toast("Login ou Senha incorretos!!")
             }
+        }
+
+        btPassword.setOnClickListener {
+            val intent = Intent(context, PasswordRecoverActivity::class.java)
+            val params = Bundle()
+            intent.putExtras(params)
+            startActivity(intent)
+        }
+
+        btAccess.setOnClickListener {
+            val intent = Intent(context, CreateAccessActivity::class.java)
+            val params = Bundle()
+            intent.putExtras(params)
+            startActivity(intent)
         }
     }
 
