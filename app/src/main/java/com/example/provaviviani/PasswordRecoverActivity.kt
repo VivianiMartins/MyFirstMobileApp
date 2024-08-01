@@ -17,7 +17,7 @@ class PasswordRecoverActivity : ComponentActivity() {
 
         //Visões
         setContentView(R.layout.activity_passord_recover)
-        val btPassword = findViewById<Button>(R.id.buttonPassword)
+        val btPassword = findViewById<Button>(R.id.buttonSave)
 
         //Eventos:
         btPassword.setOnClickListener {
@@ -27,8 +27,7 @@ class PasswordRecoverActivity : ComponentActivity() {
             val senhaConfirm = tSenhaConfirm.text.toString()
 
             if(senha === senhaConfirm) {
-                val intent = Intent(context, MainActivity::class.java)
-                startActivity(intent)
+                toast("Verifique seu e-mail")
             } else {
                 toast("As senhas não são iguais!!")
             }

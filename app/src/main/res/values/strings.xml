@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Prova Viviani</string>
+    <string name="app_name">App Viviani</string>
     <string name="welcome">Bem vindo(a)!</string>
     <string name="login">Login (nome ou e-mail):</string>
     <string name="password">Digite a senha:</string>

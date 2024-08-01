@@ -40,8 +40,6 @@ class MainActivity : ComponentActivity() {
 
         btPassword.setOnClickListener {
             val intent = Intent(context, PasswordRecoverActivity::class.java)
-            val params = Bundle()
-            intent.putExtras(params)
             startActivity(intent)
         }
 

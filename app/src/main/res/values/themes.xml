@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <style name="Theme.ProvaViviani" parent="android:Theme.Material.Light.DarkActionBar" />
 
-    <style name="Theme.ProvaViviani" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.Monocromatica" parent="android:Theme.Material.Light.DarkActionBar">
+        <item name="colorPrimaryDark">@color/purple_500</item>
+    </style>
+
+    <style name="Theme.Quadraticatica" parent="android:Theme.Material.Light.DarkActionBar" />
+    <style name="Theme.Triadica" parent="android:Theme.Material.Light.DarkActionBar" />
 </resources>
