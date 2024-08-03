@@ -10,14 +10,14 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Monocromatica"
+        android:theme="@style/Theme.ProvaViviani"
         tools:targetApi="31">
 
         <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme.Monocromatica">
+            android:theme="@style/Theme.ProvaViviani">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -29,6 +29,7 @@
         <activity android:name=".CreateAccessActivity" android:parentActivityName=".MainActivity"  />
         <activity android:name=".PasswordRecoverActivity" android:parentActivityName=".MainActivity"/>
         <activity android:name=".View2Activity" android:parentActivityName=".BemVindoActivity"/>
+        <activity android:name=".View3Activity" android:parentActivityName=".MainActivity"/>
 
         <meta-data
             android:name="preloaded_fonts"
